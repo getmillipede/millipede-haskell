@@ -1,0 +1,24 @@
+name:                millipede
+version:             0.1.0.0
+synopsis:            Prints a beautiful millipede
+description:         Please see README.md
+homepage:            https://github.com/getmillipede/millipede-haskell
+license:             BSD3
+license-file:        LICENSE
+author:              Lucas DiCioccio
+maintainer:          lucas@dicioccio.fr
+-- copyright:           
+category:            Utils
+build-type:          Simple
+-- extra-source-files:  
+cabal-version:       >=1.10
+
+executable millipede
+  hs-source-dirs:      app
+  main-is:             Main.hs
+  build-depends:       base
+  default-language:    Haskell2010
+
+source-repository head
+  type:     git
+  location: https://github.com/getmilliped/millipede-haskell
